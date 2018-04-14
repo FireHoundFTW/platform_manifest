@@ -1,1 +1,9 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="FireHoundFTW/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="mine" revision="fh" />
+  <project name="FireHoundFTW/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="mine" revision="fh" />
+  <project name="BirdSanctuary/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="mine" revision="oreo-mr1" />
+  <project name="BirdSanctuary/kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="mine" revision="oreo-mr1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
+</manifest>
