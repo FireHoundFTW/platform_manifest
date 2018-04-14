@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Custom FireHound Repos -->
-  <project path="android" name="FireHound/platform_manifest" remote="firehound" />
-  <project path="build/make" name="FireHound/android_build" groups="pdk" remote="firehound" >
+  <project path="android" name="FireHoundFTW/platform_manifest" remote="mine" revision="fh" />
+  <project path="build/make" name="FireHoundFTW/android_build" groups="pdk" remote="mine" revision="fh" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -18,7 +18,7 @@
   </project>
   <project path="external/DUtils" name="FireHound/android_external_DUtils" remote="firehound" />
   <project path="frameworks/av" name="FireHound/android_frameworks_av" remote="firehound" />
-  <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="firehound" />
+  <project path="frameworks/base" name="FireHoundFTW/android_frameworks_base" remote="mine" revision="fh" />
   <project path="frameworks/native" name="FireHound/android_frameworks_native" groups="pdk" remote="firehound" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="firehound" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="firehound" />
@@ -26,13 +26,13 @@
   <project path="packages/apps/Launcher3" name="FireHound/android_packages_apps_Launcher3" remote="firehound" />
   <project path="packages/apps/LineageParts" name="FireHound/android_packages_apps_LineageParts" remote="firehound" />
   <project path="packages/apps/OmniStyle" name="FireHound/android_packages_apps_OmniStyle" remote="firehound" />
-  <project path="packages/apps/Settings" name="FireHound/android_packages_apps_Settings" remote="firehound" />
+  <project path="packages/apps/Settings" name="FireHoundFTW/android_packages_apps_Settings" remote="mine" revision="fh" />
   <project path="packages/providers/MediaProvider" name="FireHound/android_packages_providers_MediaProvider" remote="firehound" />
   <project path="packages/services/OmniJaws" name="FireHound/android_packages_services_OmniJaws" remote="firehound" />
   <project path="packages/services/Telecomm" name="FireHound/android_packages_services_Telecomm" remote="firehound" />
   <project path="packages/services/Telephony" name="FireHound/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="firehound" />
   <project path="system/core" name="FireHound/android_system_core" remote="firehound" />
-  <project path="system/sepolicy" name="FireHound/android_system_sepolicy" remote="firehound" />
+  <project path="system/sepolicy" name="FireHoundFTW/android_system_sepolicy" remote="mine" revision="fh" />
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="firehound" />
   <project path="jenkins" name="FireHound/jenkins" remote="firehound" />
 
